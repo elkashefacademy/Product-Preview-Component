@@ -49,13 +49,13 @@ body {
   border-bottom-right-radius: 10px;
 }
 
-#product h4 {
+#product .category {
   color: var(--dark-gray);
   letter-spacing: 5px;
   font-weight: 500;
 }
 
-#product .product-content h2 {
+#product .product-content h1 {
   font-family: 'Fraunces', serif;
   font-size: 32px;
   margin: 10px 0;
