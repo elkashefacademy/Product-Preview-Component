@@ -13,19 +13,18 @@
   box-sizing: border-box;
 }
 
-img,
-picture {
-  display: block;
-  max-width: 100%;
-}
-
 body {
   background-color: var(--cream-color);
   font-family: 'Montserrat', sans-serif;
   min-height: 100vh;
   display: grid;
-  justify-content: center;
-  align-items: center;
+  place-content: center;
+}
+
+img,
+picture {
+  display: block;
+  max-width: 100%;
 }
 
 #product {
